@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projeto Lex Go</title>
+    <link rel="stylesheet" href="projeto.css">
+</head>
+
+<body>
+    <header>
+        <h1>Projeto Lex Go!</h1>
+    </header>
+    <section>
+        <div>
+            <select name="tv" id="tv" class="opções" onchange="mudancatv()">
+                <option value="non" class="opção">Selecionar TV</option>
+                <option value="TOP HD" class="opção">TOP HD</option>
+                <option value="MIX HD" class="opção">MIX HD</option>
+            </select>
+        </div>
+        <div id="tv">
+            <p id="tv">
+                Você deve selecionar uma TV.
+            </p>
+        </div>
+        <div>
+            <select name="internet" id="internet" class="opções" onchange="mudancainternet()">
+                <option value="non" class="opção">Selecionar Internet</option>
+                <option value="120mb" class="opção">120MB</option>
+                <option value="35mb" class="opção">35MB</option>
+            </select>
+        </div>
+        <div id="internet">
+            <p id="internet">
+                Você deve selecionar uma Internet.
+            </p>
+        </div>
+        <div>
+            <select name="fone" id="fone" class="opções">
+                <option value="non" class="opção">Selecionar Fone</option>
+                <option value="ili-mundo" class="opção">Ilimitado Mundo</option>
+                <option value="ili-local" class="opção">Ilimitado Local</option>
+            </select>
+        </div>
+        <div>
+            <p>
+                Você deve selecionar um Fone.
+            </p>
+        </div>
+        <div>
+            <select name="celular" id="celular" class="opções">
+                <option value="non" class="opção">Selecionar Multi</option>
+                <option value="controle" class="opção">Claro Controle</option>
+                <option value="pos" class="opção">Claro Pós</option>
+            </select>
+        </div>
+        <div>
+            <p>
+                Você deve selecionar um Multi.
+            </p>
+        </div>
+
+        <div id="valorestimado">
+            <p id="valorestimado">
+                Valor estimado
+            </p>
+        </div>
+    </section>
+    <script src="projeto.js"></script>
+</body>
+
+</html>
